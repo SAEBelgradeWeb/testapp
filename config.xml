@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "org.saebelgrade.employeedirectory"
+        versionCode = "10"
+        version     = "1.1.0">
+
+    <name>Direktorijum Zaposlenih</name>
+
+    <description>
+        Probna aplikacija
+    </description>
+
+    <author href="http://rs.sae.edu" email="office@sae.edu">
+        SAE Institute Belgrade
+    </author>
+
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+
+    <gap:plugin name="com.phonegap.plugins.camera" />
+    <gap:plugin name="com.phonegap.plugins.contacts" />
+
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
+
+</widget>
