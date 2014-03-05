@@ -23,8 +23,8 @@
     <feature name="http://api.phonegap.com/1.0/network"/>
     <feature name="http://api.phonegap.com/1.0/notification"/>
 
-<!--     <gap:plugin name="com.phonegap.plugins.camera" />
-<gap:plugin name="com.phonegap.plugins.contacts" /> -->
+<gap:plugin name="org.apache.cordova.camera" />
+<gap:plugin name="org.apache.cordova.contacts" />
 
     <gap:platform name="android" />
 
